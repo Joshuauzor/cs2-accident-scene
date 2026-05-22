@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+.app-root {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Sora', sans-serif;
+}
+
+.canvas-area {
+  flex: 1;
+  position: relative;
+  background: #0c0c0e;
+}
+
+.canvas-hint {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #2a2a3a;
+  font-size: 14px;
+  pointer-events: none;
+  text-align: center;
+  max-width: 240px;
+  line-height: 1.6;
+}
